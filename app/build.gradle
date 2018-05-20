@@ -64,4 +64,6 @@ dependencies {
     kapt "android.arch.persistence.room:compiler:$room_version"
     implementation "android.arch.persistence.room:rxjava2:$room_version"
     testImplementation "android.arch.persistence.room:testing:$room_version"
+    implementation 'androidx.core:core-ktx:1.0.0-alpha1'
+
 }
